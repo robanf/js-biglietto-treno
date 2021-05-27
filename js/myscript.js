@@ -19,13 +19,13 @@ console.log(prezzo);
 if(eta<18){
 
     prezzo=prezzo*0.8;
-    document.getElementById('prezzof').innerHTML= "il tuo prezzo sarà="+prezzo;
+    document.getElementById('prezzof').innerHTML= "il tuo prezzo sarà="+prezzo.toFixed(2);
 
 }else if(eta>65) {
 
     prezzo=prezzo*0.6;
-    document.getElementById('prezzof').innerHTML= "il tuo prezzo sarà="+prezzo;
+    document.getElementById('prezzof').innerHTML= "il tuo prezzo sarà="+prezzo.toFixed(2);
 
 }else {
-    document.getElementById('prezzof').innerHTML= "il tuo prezzo sarà="+prezzo;
+    document.getElementById('prezzof').innerHTML= "il tuo prezzo sarà="+prezzo.toFixed(2);
 }
