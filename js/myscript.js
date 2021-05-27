@@ -1,6 +1,13 @@
-var eta=prompt("Inserisci la tua età");
+do{
+    var eta=prompt("Inserisci la tua età");
+    
+}while(isNaN(eta) == true)
 
-var km=prompt("quanti km devi fare?");
+do{
+    var km=prompt("quanti km devi fare?");
+    
+}while(isNaN(km) == true)
+
 
 var prezzo=km*0.21;
 
